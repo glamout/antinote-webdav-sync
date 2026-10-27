@@ -1,0 +1,21 @@
+# User credentials & runtime state (NEVER commit real credentials)
+config.json
+state.json
+daemon.lock
+mirror_db/
+
+# macOS & Editor artifacts
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# Python & C build artifacts
+__pycache__/
+*.py[cod]
+*.o
+*.out
+*.app/
+build/
+dist/

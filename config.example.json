@@ -1,0 +1,16 @@
+{
+  "webdav_url": "https://your-webdav-server.com/dav",
+  "username": "your_username",
+  "password": "your_password",
+  "remote_folder": "/Antinote",
+  "trash_folder": ".trash",
+  "use_trash_on_delete": true,
+  "clean_orphan_files": true,
+  "include_slotted": false,
+  "include_archived": false,
+  "poll_interval_seconds": 2,
+  "audit_interval_seconds": 300,
+  "timeout_seconds": 15,
+  "verify_ssl": true,
+  "antinote_db_path": ""
+}
